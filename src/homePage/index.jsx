@@ -12,7 +12,7 @@ const Index = () => {
 
   useEffect(() => {
     document.title = 'Tiggidoo';
-    document.querySelector('meta[name=description]').content = '这是一条元描述';
+    document.querySelector('meta[name=description]').content = 'this is the desciption of the meta';
   }, []);
   return (
     <div className="homeContainer">
