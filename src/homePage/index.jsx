@@ -11,7 +11,7 @@ const Index = () => {
   };
 
   useEffect(() => {
-    document.title = 'HomePage';
+    document.title = 'Tiggidoo';
     document.querySelector('meta[name=description]').content = '这是一条元描述';
   }, []);
   return (
