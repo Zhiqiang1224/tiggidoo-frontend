@@ -1,0 +1,14 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.wrap > * {
+  margin-right: 64px;
+}
+
+.wrap > *:last-child {
+  margin-right: 0;
+}
