@@ -1,6 +1,6 @@
 ## 预览地址
 
-[预览地址链接]https://master.d2vcd82b9vlfhx.amplifyapp.com/
+[预览地址链接](https://master.d2vcd82b9vlfhx.amplifyapp.com/)
 
 ## Available Scripts
 
