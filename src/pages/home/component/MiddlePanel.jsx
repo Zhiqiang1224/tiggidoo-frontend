@@ -1,5 +1,5 @@
 import React from 'react';
-import MiddleImage from '../images/MiddleImage.svg';
+import MiddleImage from '../images/emploi-entretien-menager-montreal.svg';
 import styles from '../index.css';
 import BetweenConatiner from './BetweenContainer';
 import CustomHead from './CustomHead';
@@ -9,7 +9,7 @@ const MiddlePanel = ({ onButtonClick, success = false }) => {
     <div className={styles.middlePanel}>
       <BetweenConatiner>
         <div className={styles.middleImg}>
-          <img src={MiddleImage}></img>
+          <img src={MiddleImage} alt="Emploi entretien ménager à Montréal"></img>
         </div>
         <div className={styles.midMainInfo}>
           <CustomHead type="h2" color="#FFF">

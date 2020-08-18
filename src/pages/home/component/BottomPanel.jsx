@@ -1,10 +1,10 @@
 import React from 'react';
-import facebook from '../images/facebook.png';
-import instagram from '../images/instagram.png';
-import LeftTree from '../images/LeftTree.svg';
-import linkedin from '../images/linkedin.png';
-import LogoBottom from '../images/LogoBottom.svg';
-import RightTree from '../images/RightTree.svg';
+import facebook from '../images/Facebook-tiggidoo.png';
+import instagram from '../images/instagram-tiggidoo.png';
+import LeftTree from '../images/plante.svg';
+import linkedin from '../images/linkedin-tiggidoo.png';
+import LogoBottom from '../images/logo-tiggidoo-blanc.svg';
+import RightTree from '../images/Plante2.svg';
 import styles from '../index.css';
 import BetweenConatiner from './BetweenContainer';
 import Wrap from './Wrap';
@@ -15,7 +15,7 @@ const BottomPanel = () => {
 
       <BetweenConatiner>
         <div className={styles.bottomInfo1}>
-          <img src={LogoBottom}></img>
+          <img src={LogoBottom} alt="Service de ménage à domicile au Quebec"></img>
           <div className={styles.copyRight}>
             Copiright 2020 Tout droit réservé
           </div>
@@ -24,9 +24,9 @@ const BottomPanel = () => {
           <div>SUIVEZ-NOUS</div>
           {/* <div className={styles.bottomIcons}> */}
           <Wrap space="56px" marginTop="15px" runSpace="20px">
-            <img src={facebook}></img>
-            <img src={linkedin}></img>
-            <img src={instagram}></img>
+            <img src={facebook} alt="Facebook de Tiggidoo"></img>
+            <img src={linkedin} alt="Linkedin de Tiggidoo"></img>
+            <img src={instagram} alt="Instagram de Tiggidoo"></img>
           </Wrap>
         </div>
         {/* </div> */}

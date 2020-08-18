@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import emailLogo from '../images/email.png';
 import inputLogo from '../images/inputLogo.png';
 import successLogo from '../images/success.png';
-import TopLeftImg from '../images/TopLeftImg.svg';
-import TopLogo from '../images/TopLogo.svg';
+import TopLeftImg from '../images/menage-domicile-montreal.svg';
+import TopLogo from '../images/logo_tiggidoo.svg';
 import styles from '../index.css';
 import BetweenConatiner from './BetweenContainer';
 import BlueText from './BlueText';
@@ -17,7 +17,7 @@ const TopPanel = ({ onButtonClick, onChange, success = false }) => {
     <div className={styles.topContainer}>
       <BetweenConatiner>
         <div className={styles.topImgConatiner}>
-          <img src={TopLogo}></img>
+          <img src={TopLogo} alt="Tiggidoo : l'entretien ménager au Quebec"></img>
         </div>
         <div
           className={`${styles.topText} ${styles.button}`}
@@ -95,7 +95,7 @@ const TopPanel = ({ onButtonClick, onChange, success = false }) => {
           </div>
         </div>
         <div className={styles.TopLeftImg}>
-          <img src={TopLeftImg}></img>
+          <img src={TopLeftImg} alt="Trouver une femme de ménage à Montréal"></img>
         </div>
       </BetweenConatiner>
     </div>

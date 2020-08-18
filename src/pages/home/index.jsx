@@ -39,8 +39,8 @@ const Index = () => {
   };
 
   useEffect(() => {
-    document.title = 'HomePage';
-    document.querySelector('meta[name=description]').content = '这是一条元描述';
+    document.title = 'Tiggidoo: plateforme de ménage';
+    document.querySelector('meta[name=description]').content = 'Tiggidoo, nouvelle plateforme de service de ménage résidentiel! Trouvez une aide ménagère, parmi les professionnels qualifiés en entretien ménager';
   }, []);
   return (
     <div className={styles.homeContainer}>
