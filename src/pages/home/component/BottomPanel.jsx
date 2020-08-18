@@ -24,9 +24,15 @@ const BottomPanel = () => {
           <div>SUIVEZ-NOUS</div>
           {/* <div className={styles.bottomIcons}> */}
           <Wrap space="56px" marginTop="15px" runSpace="20px">
-            <img src={facebook} alt="Facebook de Tiggidoo"></img>
-            <img src={linkedin} alt="Linkedin de Tiggidoo"></img>
-            <img src={instagram} alt="Instagram de Tiggidoo"></img>
+            <a href="https://www.facebook.com/Tiggidoo-106384241156285/">
+              <img src={facebook} alt="Facebook de Tiggidoo"></img>
+            </a>
+            <a href="https://www.linkedin.com/company/tiggidoo">
+              <img src={linkedin} alt="Linkedin de Tiggidoo"></img>
+            </a>
+            <a href=" https://www.instagram.com/tiggidoo/">
+              <img src={instagram} alt="Instagram de Tiggidoo"></img>
+            </a>
           </Wrap>
         </div>
         {/* </div> */}
