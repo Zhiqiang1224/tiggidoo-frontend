@@ -1,11 +1,10 @@
 .h1 {
   font-size: 55px;
-  font-family: Righteous;
-  font-weight: Regular;
+  font-family: Righteous_Regular;
   letter-spacing: 0px;
   color: #4d4d4d;
   line-height: 68px;
-  font-weight: bold;
+  text-align: left;
 }
 
 .h2 {
@@ -25,7 +24,7 @@
   font-size: 25px;
   color: #4d4d4d;
 }
-.h1,
+
 .h2,
 .h3 {
   font-weight: bold;

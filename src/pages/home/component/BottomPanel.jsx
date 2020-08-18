@@ -1,8 +1,8 @@
 import React from 'react';
-import camera from '../images/camera.png';
 import facebook from '../images/facebook.png';
-import ins from '../images/ins.png';
+import instagram from '../images/instagram.png';
 import LeftTree from '../images/LeftTree.svg';
+import linkedin from '../images/linkedin.png';
 import LogoBottom from '../images/LogoBottom.svg';
 import RightTree from '../images/RightTree.svg';
 import styles from '../index.css';
@@ -25,8 +25,8 @@ const BottomPanel = () => {
           {/* <div className={styles.bottomIcons}> */}
           <Wrap space="56px" marginTop="15px" runSpace="20px">
             <img src={facebook}></img>
-            <img src={ins}></img>
-            <img src={camera}></img>
+            <img src={linkedin}></img>
+            <img src={instagram}></img>
           </Wrap>
         </div>
         {/* </div> */}

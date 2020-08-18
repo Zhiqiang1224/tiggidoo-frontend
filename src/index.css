@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Righteous_Regular';
+  src: url('./assets/font/Righteous_Regular.ttf') format('truetype');
+}
