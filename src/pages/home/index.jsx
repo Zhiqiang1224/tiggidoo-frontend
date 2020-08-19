@@ -16,7 +16,7 @@ const Index = () => {
     setSuccess(true);
     try {
       const res = await Axios.post(
-        'http://tiggidoov1-env.eba-m2ffznh6.us-east-2.elasticbeanstalk.com/api/sendemail',
+        'https://api.tiggidoo.com/api/sendemail',
         formData,
         {
           headers: {
