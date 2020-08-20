@@ -59,6 +59,16 @@
 
   margin-top: 48px;
 }
+
+.titleBig {
+  font-size: 90px;
+  line-height: 112px;
+  letter-spacing: 0px;
+}
+
+.titleBig > span {
+  color: #28cc8b;
+}
 .inputContainer > div:last-child {
   margin-left: auto;
 }
@@ -106,6 +116,39 @@ input {
   -moz-appearance: none;
 }
 
+.inputBtmText {
+  margin-top: 12px;
+  text-align: left;
+  font: normal normal 900 24px/33px Avenir;
+  letter-spacing: 0px;
+  color: #fa0606;
+  opacity: 1;
+}
+
+.inputButton {
+  width: 213px;
+  height: 66px;
+  background: #28cc8b 0% 0% no-repeat padding-box;
+  text-align: center;
+
+  font: normal normal 900 23px/31px Avenir;
+  letter-spacing: 0px;
+  color: #ffffff;
+  line-height: 66px;
+}
+.itemsText {
+  margin-left: 200px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.itemsText > span {
+  margin-right: 10px;
+}
+.inputBorder {
+  border: 2px solid #fa0606;
+  border-radius: 3px;
+}
 .successLogo {
   height: 50px;
   opacity: 1;
@@ -148,6 +191,7 @@ input::-webkit-input-placeholder {
 }
 
 .middlePanel {
+  margin-top: 100px;
   background-color: #2880f9;
   padding: 88px 120px;
   color: #ffffff;

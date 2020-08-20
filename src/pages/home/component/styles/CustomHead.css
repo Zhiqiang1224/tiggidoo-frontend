@@ -17,11 +17,18 @@
   font-weight: bold;
 }
 
-.h3 {
+.h4 {
   font: Black Avenir;
   letter-spacing: 0px;
   line-height: 34px;
   font-size: 25px;
+  color: #4d4d4d;
+}
+.h3 {
+  font: Black Avenir;
+  letter-spacing: 0px;
+  line-height: 41px;
+  font-size: 30px;
   color: #4d4d4d;
 }
 

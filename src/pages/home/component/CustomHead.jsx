@@ -5,9 +5,10 @@ const CustomHead = ({
   type = 'h1',
   color = '#4d4d4d',
   marginTop = '30px',
+  fontSize = null,
 }) => {
   return (
-    <div className={styles[type]} style={{ color, marginTop }}>
+    <div className={styles[type]} style={{ color, marginTop, fontSize }}>
       {children}
     </div>
   );
