@@ -21,7 +21,7 @@ const MiddlePanel = ({ onButtonClick, success = false }) => {
           <CustomHead type="h3" color="#FFF">
             Devenez un ToDoo !
           </CustomHead>
-          <CustomParagraph marginTop="16px" color="#FFF" fontWeight="lighter">
+          <CustomParagraph marginTop="16px" color="#FFF" fontWeight="300">
             Devenez un Todoo, gratuit, sans engagement et flexible : Tiggidoo
             est la solution pour tous les travailleurs autonomes en entretien
             ménager résidentiel.
@@ -29,7 +29,7 @@ const MiddlePanel = ({ onButtonClick, success = false }) => {
           <CustomHead type="h3" color="#FFF">
             C'est vous le patron
           </CustomHead>
-          <CustomParagraph marginTop="16px" color="#FFF" fontWeight="lighter">
+          <CustomParagraph marginTop="16px" color="#FFF" fontWeight="300">
             En tant que Todoo, vous gardez le plein contrôle de votre horaire.
             Vous recevrez des offres automatiquement selon vos critères, votre
             secteur et vos disponibilités.
@@ -37,7 +37,7 @@ const MiddlePanel = ({ onButtonClick, success = false }) => {
           <CustomHead type="h3" color="#FFF">
             Travaillez mieux, pour gagnez plus
           </CustomHead>
-          <CustomParagraph marginTop="16px" color="#FFF" fontWeight="lighter">
+          <CustomParagraph marginTop="16px" color="#FFF" fontWeight="300">
             Moins de gestion signifie plus de revenus et de liberté. Vous aurez
             accès gratuitement à des outils de gestion efficaces pour optimiser
             votre temps et augmenter vos gains.
